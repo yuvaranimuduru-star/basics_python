@@ -1,0 +1,166 @@
+print('hlo python life')
+# basics
+# first programming language is 'formula translation ,it discovered john backus'
+# who invented python ? = guido van rossum ,feb 20 ,1991
+# what is python ? = python is a object oriented ,scripting , high level language
+# python released in 1991
+# python 2.0 = 2000
+# python 3.0 = 2008
+# present current version is 3.9.2
+# python uses the interpreter
+
+# comments 
+# single comment = (#) hash
+# multi comments =("" "")
+
+statement = "yuva is a good girl"
+print (statement)
+
+# variable =value
+a = 3
+b = 4
+print (a+b)
+print (a*b)
+
+# case sensitive
+sum = 10
+Sum = 100
+print (sum)
+print (Sum)
+
+# camel case 
+pythonLife = 'hello world'
+print (pythonLife)
+
+# indentation 
+sum =10
+def calculate ():
+    global sum
+    sum  = 20
+    currentsum =200
+    totalsum = sum + currentsum
+    print (totalsum)
+calculate()
+print(sum)
+print(sum)
+
+sum = 30
+def calculate ():
+    sum = 20
+    currentsum = 100
+    totalsum = sum + currentsum
+    print(totalsum)
+calculate()
+print (sum)
+
+# operators
+print('operators programme')
+# arthematic operators
+a = 5
+b = 10
+print(a+b)
+print('adittion',a+b)
+print(a-b)
+print('sub',a-b)
+print(a*b)
+print('mul',a*b)
+print(a/b)
+print('div',a/b)
+print(a%b)
+print(a//b)
+print(a**b)
+
+# relation operators
+a = 2
+b = 4
+print(a==b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a!=b)
+
+# logical operators
+a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)
+print (not b)
+
+# assignment operators
+a = 4 
+b = 8
+
+a+=8
+print(a)
+
+a-=8
+print (a)
+
+a*=8
+print(a)
+
+a/=8
+print(a)
+
+a//=8
+print(a)
+
+a**=8
+print(a)
+
+# data types
+# int
+a = 10
+print(type(a))
+
+# float
+a =1.0
+print(type(a))
+
+# boolen
+is_student = True
+print(type(is_student))
+# (or)
+a_b =True
+print(type(a_b))
+
+# string
+name ='yuva'
+print(type(name))
+
+# complex
+x = 3+ 5j
+y = 2+ 4j
+print(type(x))
+print(type(y))
+
+# list
+a = [44]
+print(type(a))
+
+# tuple
+b = (22,44)
+print(type(b))
+
+# set
+c ={1,2,3}
+print (type(c))
+
+# dictionary
+words = {"fruit" : "mango"}
+print(type(words))
+
+
+
+
+
+
+
+
+
+
+
+
+
